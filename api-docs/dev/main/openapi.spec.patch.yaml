@@ -1,0 +1,4 @@
+servers:
+- url: https://patched.server.com
+
+x-kong-name : my-test-combination

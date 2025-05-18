@@ -3,11 +3,9 @@ info:
   title: Sample API
   description: This is a sample API to be used with Kong Konnect
   version: v1
-
 servers:
   - url: https://api.example.com/v1
     description: Production server
-
 paths:
   /users:
     get:
@@ -27,13 +25,11 @@ paths:
                       type: string
                     name:
                       type: string
-
 components:
   securitySchemes:
     api_key:
       type: apiKey
       in: header
       name: X-API-Key
-
 security:
   - api_key: []

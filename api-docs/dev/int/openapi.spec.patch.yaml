@@ -1,4 +1,4 @@
 servers:
-- url: https://int.patched.server.com
+- url: https://stg.patched.server.com
 
-x-kong-name : my-test-combination-dev
+x-kong-name : my-test-combination-stg
